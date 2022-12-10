@@ -7,8 +7,8 @@
 The project takes form as multiple receipts, each containing a “thesis.” These theses have been generated intentionally without using Large Language Models. Instead, the text is generated using various functions that take inspiration from algorithms, some over 100 years old. The text corpus was created from the assigned readings for the course “MA Internet Equalities.” This is the repository for the code that generates the thesis, with created text copora. 
 
 
-░█▀▀█ ░█▀▀▀ ░█▀▀█ 　 ░█──░█ ▀█▀ ▀▀█▀▀ ░█─░█ 　 ░█▄─░█ ░█─── ▀▀█▀▀ ░█─▄▀ 
-░█─── ░█▀▀▀ ░█─▄▄ 　 ░█░█░█ ░█─ ─░█── ░█▀▀█ 　 ░█░█░█ ░█─── ─░█── ░█▀▄─ 
+░█▀▀█ ░█▀▀▀ ░█▀▀█ 　 ░█──░█ ▀█▀ ▀▀█▀▀ ░█─░█ 　 ░█▄─░█ ░█─── ▀▀█▀▀ ░█─▄▀ \
+░█─── ░█▀▀▀ ░█─▄▄ 　 ░█░█░█ ░█─ ─░█── ░█▀▀█ 　 ░█░█░█ ░█─── ─░█── ░█▀▄─ \
 ░█▄▄█ ░█─── ░█▄▄█ 　 ░█▄▀▄█ ▄█▄ ─░█── ░█─░█ 　 ░█──▀█ ░█▄▄█ ─░█── ░█─░█
 
 ### Abstract and Conclusion
@@ -16,8 +16,8 @@ The project takes form as multiple receipts, each containing a “thesis.” The
 * https://www.nltk.org/
 
 
-▀▀█▀▀ ░█▀▀█ ─█▀▀█ ░█──░█ ░█▀▀▀ ░█▀▀▀█ ▀▀█▀▀ ░█──░█ 
-─░█── ░█▄▄▀ ░█▄▄█ ─░█░█─ ░█▀▀▀ ─▀▀▀▄▄ ─░█── ░█▄▄▄█ 
+▀▀█▀▀ ░█▀▀█ ─█▀▀█ ░█──░█ ░█▀▀▀ ░█▀▀▀█ ▀▀█▀▀ ░█──░█ \
+─░█── ░█▄▄▀ ░█▄▄█ ─░█░█─ ░█▀▀▀ ─▀▀▀▄▄ ─░█── ░█▄▄▄█ \
 ─░█── ░█─░█ ░█─░█ ──▀▄▀─ ░█▄▄▄ ░█▄▄▄█ ─░█── ──░█──
 
 #### Introduction 
@@ -26,8 +26,8 @@ The project takes form as multiple receipts, each containing a “thesis.” The
 
 
 
-░█▀▄▀█ ─█▀▀█ ░█▀▀█ ░█─▄▀ ░█▀▀▀█ ░█──░█ 
-░█░█░█ ░█▄▄█ ░█▄▄▀ ░█▀▄─ ░█──░█ ─░█░█─ 
+░█▀▄▀█ ─█▀▀█ ░█▀▀█ ░█─▄▀ ░█▀▀▀█ ░█──░█ \
+░█░█░█ ░█▄▄█ ░█▄▄▀ ░█▀▄─ ░█──░█ ─░█░█─ \
 ░█──░█ ░█─░█ ░█─░█ ░█─░█ ░█▄▄▄█ ──▀▄▀─
 
 #### Literature Review  
@@ -39,8 +39,8 @@ The project takes form as multiple receipts, each containing a “thesis.” The
 * Reference: <a href="https://github.com/aparrish/rwet/blob/master/ngrams-and-markov-chains.ipynb" target="_blank">N-grams and Markov chains by Allison Parrish</a>
 
 
-░█▀▀▄ ─█▀▀█ ░█▀▀▄ ─█▀▀█ 
-░█─░█ ░█▄▄█ ░█─░█ ░█▄▄█ 
+░█▀▀▄ ─█▀▀█ ░█▀▀▄ ─█▀▀█ \
+░█─░█ ░█▄▄█ ░█─░█ ░█▄▄█ \
 ░█▄▄▀ ░█─░█ ░█▄▄▀ ░█─░█
 
 "Dada" text generating/regurgitating algorithms based on the guide "To Make a Dadaist Poem" (Pour Faire Un Poème Dadaiste, 1920) by Tristan Tzara. 
