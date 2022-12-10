@@ -1,1 +1,5 @@
-# text-regurgitation
+# Text Regurgitation
+
+<it>Text Regurgitation</it> aims to critique Large Language Models often unacknowledged but harmful decontextualization of language. Text Regurgitation is simultaneously is a commentary on western education systems and knowledge production. Regurgitation refers to the act of bringing up something that has been previously swallowed or digested. In the context of information, regurgitation refers to the repetition of previously learned information without understanding it. Language models can not understand; they can only regurgitate without meaning, even if the produced text is seemingly coherent. 
+
+The project takes form as multiple receipts, each containing a “thesis.” These theses have been generated intentionally without using Large Language Models. Instead, the text is generated using various functions that take inspiration from algorithms, some over 100 years old. The text corpus was created from the assigned readings for the course “MA Internet Equalities.” This is the repository for the code that generates the thesis, with created text copora. 
