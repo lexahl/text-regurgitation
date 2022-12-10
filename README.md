@@ -68,8 +68,9 @@ CGF (Context-Free Grammar) refers to a sytem that represents all possible string
 * Splits up the characters randomly into lengths 1-11
 * Rejoins the splits randomly
 
-## How to Run (and Print) This Code
 
+
+## How to Run (and Print) This Code
 Download or clone repository to computer. Navigate in terminal/command line to the folder. Run:
 
 ```
@@ -82,9 +83,8 @@ A file `output.txt` will be written with the thesis. The thesis will also show i
 lp -o lpi=10 -o cpi=17 output.txt
 ```
 
-Adjust lpi (lines per inch) and cpi(characters per inch) as needed. 
+Modifications: Adjust `lpi`(lines per inch) and `cpi`(characters per inch) as needed. If you would like to use your own files, move your text files into the folder as `sources.txt` and `references.txt` after removing the original files. Edit the formatting directly in the `regurgitate.py` file in the ## formatting variables section. 
 
-Modifications: If you would like to use your own files, move your text files into the folder as `sources.txt` and `references.txt` after removing the original files. Edit the formatting directly in the `regurgitate.py` file in the ## formatting variables section. 
 
 
 ## References
@@ -92,8 +92,10 @@ Modifications: If you would like to use your own files, move your text files int
 A complete list of references to generate the thesis with `regurgitate.py` and `sources.txt` is included in this repository as `references.txt.`
 
 
+
 ## Acknowledgements
 ==to do==
+
 
 
 ## LICENSES
