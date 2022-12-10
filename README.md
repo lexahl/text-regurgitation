@@ -5,7 +5,7 @@
 
 The project takes form as multiple receipts, each containing a “thesis.” These theses have been generated intentionally without using Large Language Models. Instead, the text is generated using various functions that take inspiration from algorithms, some over 100 years old. The text corpus was created from the assigned readings for the course “MA Internet Equalities.” This is the repository for the code that generates the thesis, with created text copora. 
 
-- - -
+
 
 ## Algorithms 
 
@@ -35,14 +35,15 @@ The project takes form as multiple receipts, each containing a “thesis.” The
 * context free grammar
 * https://www.nltk.org/
 
-- - -
+
 
 ## References
 
-- - -
+
 
 ## Acknowledgements
 
-- - -
 
-<img src="https://github.com/lexahl/text-regurgitation/blob/main/img/cover.png?raw=true" alt="receipt printer printing 1m long receipt, all surrounding the printer" title="Text Regurgitation" width="200"/> <img src="https://github.com/lexahl/text-regurgitation/blob/main/img/cover.png?raw=true" alt="receipt printer printing 1m long receipt, all surrounding the printer" title="Text Regurgitation" width="200"/> <img src="https://github.com/lexahl/text-regurgitation/blob/main/img/cover.png?raw=true" alt="receipt printer printing 1m long receipt, all surrounding the printer" title="Text Regurgitation" width="200"/>
+
+<img src="https://github.com/lexahl/text-regurgitation/blob/main/img/cover.png?raw=true" alt="receipt printer printing 1m long receipt, all surrounding the printer" title="Text Regurgitation" width="200"/> <img src="https://github.com/lexahl/text-regurgitation/blob/main/img/cover.png?raw=true" alt="receipt printer printing 1m long receipt, all surrounding the printer" title="Text Regurgitation" width="200"/> <img src="https://github.com/lexahl/text-regurgitation/blob/main/img/cover.png?raw=true" alt="receipt printer printing 1m long receipt, all surrounding the printer" title="Text Regurgitation" width="200"/><img src="https://github.com/lexahl/text-regurgitation/blob/main/img/cover.png?raw=true" alt="receipt printer printing 1m long receipt, all surrounding the printer" title="Text Regurgitation" width="200"/><img src="https://github.com/lexahl/text-regurgitation/blob/main/img/cover.png?raw=true" alt="receipt printer printing 1m long receipt, all surrounding the printer" title="Text Regurgitation" width="200"/>
+- - -
