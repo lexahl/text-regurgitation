@@ -6,6 +6,7 @@
 
 The project takes form as multiple receipts, each containing a “thesis.” These theses have been generated intentionally without using Large Language Models. Instead, the text is generated using various functions that take inspiration from algorithms, some over 100 years old. The text corpus was created from the assigned readings for the course “MA Internet Equalities.” This is the repository for the code that generates the thesis, with created text copora. 
 
+- - - 
 
 ░█▀▀█ ░█▀▀▀ ░█▀▀█ 　 ░█──░█ ▀█▀ ▀▀█▀▀ ░█─░█ 　 ░█▄─░█ ░█─── ▀▀█▀▀ ░█─▄▀ \
 ░█─── ░█▀▀▀ ░█─▄▄ 　 ░█░█░█ ░█─ ─░█── ░█▀▀█ 　 ░█░█░█ ░█─── ─░█── ░█▀▄─ \
@@ -15,6 +16,7 @@ The project takes form as multiple receipts, each containing a “thesis.” The
 * context free grammar
 * https://www.nltk.org/
 
+- - - 
 
 ▀▀█▀▀ ░█▀▀█ ─█▀▀█ ░█──░█ ░█▀▀▀ ░█▀▀▀█ ▀▀█▀▀ ░█──░█ \
 ─░█── ░█▄▄▀ ░█▄▄█ ─░█░█─ ░█▀▀▀ ─▀▀▀▄▄ ─░█── ░█▄▄▄█ \
@@ -24,7 +26,7 @@ The project takes form as multiple receipts, each containing a “thesis.” The
 * travesty (also markov)
 * Reference: <a href="https://github.com/rodneyshupe/travestypy" target="_blank">Travesty in Python by Rodney Shupe</a>
 
-
+- - - 
 
 ░█▀▄▀█ ─█▀▀█ ░█▀▀█ ░█─▄▀ ░█▀▀▀█ ░█──░█ \
 ░█░█░█ ░█▄▄█ ░█▄▄▀ ░█▀▄─ ░█──░█ ─░█░█─ \
@@ -38,6 +40,7 @@ The project takes form as multiple receipts, each containing a “thesis.” The
 * Markov based character-level regurgitation
 * Reference: <a href="https://github.com/aparrish/rwet/blob/master/ngrams-and-markov-chains.ipynb" target="_blank">N-grams and Markov chains by Allison Parrish</a>
 
+- - -
 
 ░█▀▀▄ ─█▀▀█ ░█▀▀▄ ─█▀▀█ \
 ░█─░█ ░█▄▄█ ░█─░█ ░█▄▄█ \
