@@ -18,6 +18,9 @@ The project takes form as multiple receipts, each containing a “thesis.” The
 ░█▄▄█ ░█─── ░█▄▄█ 　 ░█▄▀▄█ ▄█▄ ─░█── ░█─░█ 　 ░█──▀█ ░█▄▄█ ─░█── ░█─░█
 
 CGF (Context-Free Grammar) refers to a sytem that represents all possible strings in a given formal language.  
+
+NLTK is a tool in Python to work with human language data, often used in Natural Language Processing. It is used in this code to tokenize and categorize text. See <a href="https://www.nltk.org/install.html" target="_blank">Installing NLTK</a> for installation help.   
+
 ### Abstract and Conclusion
 * context free grammar
 * https://www.nltk.org/
@@ -30,7 +33,7 @@ CGF (Context-Free Grammar) refers to a sytem that represents all possible string
 
 #### Introduction 
 * travesty (also markov)
-* Reference: <a href="https://github.com/rodneyshupe/travestypy" target="_blank">Travesty in Python by Rodney Shupe</a>
+* Reference: <a href="https://github.com/rodneyshupe/travestypy" target="_blank">Travesty in Python by Rodney Shupe</a>, license below.
 
 - - - 
 
@@ -44,7 +47,7 @@ CGF (Context-Free Grammar) refers to a sytem that represents all possible string
 
 #### Methods 
 * Markov based character-level regurgitation
-* Reference: <a href="https://github.com/aparrish/rwet/blob/master/ngrams-and-markov-chains.ipynb" target="_blank">N-grams and Markov chains by Allison Parrish</a>
+* Reference: <a href="https://github.com/aparrish/rwet/blob/master/ngrams-and-markov-chains.ipynb" target="_blank">N-grams and Markov chains by Allison Parrish</a>, license below.
 
 - - -
 
@@ -77,7 +80,7 @@ Download or clone repository to computer. Navigate in terminal/command line to t
 python3 regurgitate.py
 ```
 
-A file `output.txt` will be written with the thesis. The thesis will also show in the terminal/command line. To print using CUPS, using the command line prompt below: 
+A file `output.txt` will be written with a "generated" thesis. The thesis will be different each time the command above is run. The thesis will also show in the terminal/command line. To print using CUPS, using the command line prompt below: 
 
 ```
 lp -o lpi=10 -o cpi=17 output.txt
