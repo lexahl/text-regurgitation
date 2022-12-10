@@ -7,28 +7,42 @@
 The project takes form as multiple receipts, each containing a “thesis.” These theses have been generated intentionally without using Large Language Models. Instead, the text is generated using various functions that take inspiration from algorithms, some over 100 years old. The text corpus was created from the assigned readings for the course “MA Internet Equalities.” This is the repository for the code that generates the thesis, with created text copora. 
 
 
+░█▀▀█ ░█▀▀▀ ░█▀▀█ 　 ░█──░█ ▀█▀ ▀▀█▀▀ ░█─░█ 　 ░█▄─░█ ░█─── ▀▀█▀▀ ░█─▄▀ 
+░█─── ░█▀▀▀ ░█─▄▄ 　 ░█░█░█ ░█─ ─░█── ░█▀▀█ 　 ░█░█░█ ░█─── ─░█── ░█▀▄─ 
+░█▄▄█ ░█─── ░█▄▄█ 　 ░█▄▀▄█ ▄█▄ ─░█── ░█─░█ 　 ░█──▀█ ░█▄▄█ ─░█── ░█─░█
 
 ### Abstract and Conclusion
 * context free grammar
 * https://www.nltk.org/
 
-### Travesty Function
 
-
+▀▀█▀▀ ░█▀▀█ ─█▀▀█ ░█──░█ ░█▀▀▀ ░█▀▀▀█ ▀▀█▀▀ ░█──░█ 
+─░█── ░█▄▄▀ ░█▄▄█ ─░█░█─ ░█▀▀▀ ─▀▀▀▄▄ ─░█── ░█▄▄▄█ 
+─░█── ░█─░█ ░█─░█ ──▀▄▀─ ░█▄▄▄ ░█▄▄▄█ ─░█── ──░█──
 
 #### Introduction 
 * travesty (also markov)
 * Reference: <a href="https://github.com/rodneyshupe/travestypy" target="_blank">Travesty in Python by Rodney Shupe</a>
 
-#### Lit Review  
-* markov word level
+
+
+░█▀▄▀█ ─█▀▀█ ░█▀▀█ ░█─▄▀ ░█▀▀▀█ ░█──░█ 
+░█░█░█ ░█▄▄█ ░█▄▄▀ ░█▀▄─ ░█──░█ ─░█░█─ 
+░█──░█ ░█─░█ ░█─░█ ░█─░█ ░█▄▄▄█ ──▀▄▀─
+
+#### Literature Review  
+* Markov word-level regurgitation
 * Reference: <a href="https://medium.com/upperlinecode/making-a-markov-chain-poem-generator-in-python-4903d0586957" target="_blank">Making a Markov Chain Poem Generator in Python by Mehrab Jamee</a>
 
 #### Methods 
-* markov character level
+* Markov based character-level regurgitation
 * Reference: <a href="https://github.com/aparrish/rwet/blob/master/ngrams-and-markov-chains.ipynb" target="_blank">N-grams and Markov chains by Allison Parrish</a>
 
-### Dada Functions 
+
+░█▀▀▄ ─█▀▀█ ░█▀▀▄ ─█▀▀█ 
+░█─░█ ░█▄▄█ ░█─░█ ░█▄▄█ 
+░█▄▄▀ ░█─░█ ░█▄▄▀ ░█─░█
+
 "Dada" text generating/regurgitating algorithms based on the guide "To Make a Dadaist Poem" (Pour Faire Un Poème Dadaiste, 1920) by Tristan Tzara. 
 
 > Take a newspaper. Take some scissors. Choose from this paper an article of the length you want to make your poem. Cut out the article. Next carefully cut out each of the words that makes up this article and put them all in a bag. Shake gently. Next take out each cutting one after the other. Copy conscientiously in the order in which they left the bag. Them poem will resemble you. And there you are - an infinitely original author of charming sensibility, even though unappreciated by the vulgar herd. (Translation reference: <a href="https://lyricstranslate.com/fr/make-dadaist-poem-pour-faire-un-po%C3%A8me-dada%C3%AFste.html" target="_blank">Pour faire un poème dadaïste (traduction en anglais) by Alma Barroca</a>)
@@ -45,9 +59,6 @@ The project takes form as multiple receipts, each containing a “thesis.” The
 * Splits up the characters randomly into lengths 1-11
 * Rejoins the splits randomly
 
-#### Conclusion - scrambled abstract
-* context free grammar
-* https://www.nltk.org/
 
 ## How to Run This Code
 
