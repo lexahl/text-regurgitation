@@ -4,7 +4,12 @@
 
 ## About the Algorithms
 
-The project takes form as multiple receipts, each containing a “thesis.” These theses have been generated intentionally without using Large Language Models. Instead, the text is generated using various functions that take inspiration from algorithms, some over 100 years old. The text corpus was created from the assigned readings for the course “MA Internet Equalities.” This is the repository for the code that generates the thesis, with created text copora. 
+The project takes form as multiple receipts, each containing a “thesis.” These theses have been generated intentionally without using Large Language Models. Instead, the text is generated using various functions that take inspiration from algorithms, some over 100 years old. The text corpus was created from the assigned readings for the course “MA Internet Equalities.” This is the repository for the code that generates the thesis, with created text copora. An example thesis generated using this code is availble in this repository as `output.txt`,
+
+* Context-Free Grammar with NLTK (2001)
+* Travesty (1984)
+* Markov (1906)
+* Dada (1920)
 
 - - - 
 
@@ -12,6 +17,7 @@ The project takes form as multiple receipts, each containing a “thesis.” The
 ░█─── ░█▀▀▀ ░█─▄▄ 　 ░█░█░█ ░█─ ─░█── ░█▀▀█ 　 ░█░█░█ ░█─── ─░█── ░█▀▄─ \
 ░█▄▄█ ░█─── ░█▄▄█ 　 ░█▄▀▄█ ▄█▄ ─░█── ░█─░█ 　 ░█──▀█ ░█▄▄█ ─░█── ░█─░█
 
+CGF (Context-Free Grammar) refers to a sytem that represents all possible strings in a given formal language.  
 ### Abstract and Conclusion
 * context free grammar
 * https://www.nltk.org/
@@ -57,13 +63,12 @@ The project takes form as multiple receipts, each containing a “thesis.” The
 * Splits up the words
 * Rejoins them randomly
 
-#### Discussion - markov character level
+#### Discussion
 * Dada character-level 
 * Splits up the characters randomly into lengths 1-11
 * Rejoins the splits randomly
 
-
-## How to Run This Code
+## How to Run (and Print) This Code
 
 Download or clone repository to computer. Navigate in terminal/command line to the folder. Run:
 
@@ -83,20 +88,15 @@ Modifications: If you would like to use your own files, move your text files int
 
 
 ## References
+==to do==
+A complete list of references to generate the thesis with `regurgitate.py` and `sources.txt` is included in this repository as `references.txt.`
 
-A complete list of references used in the references.txt file is included in this repositor
 
 ## Acknowledgements
-
-
-
-<img src="https://github.com/lexahl/text-regurgitation/blob/main/img/cover.png?raw=true" alt="receipt printer printing 1m long receipt, all surrounding the printer" title="Text Regurgitation" width="200"/><img src="https://github.com/lexahl/text-regurgitation/blob/main/img/cover.png?raw=true" alt="receipt printer printing 1m long receipt, all surrounding the printer" title="Text Regurgitation" width="200"/><img src="https://github.com/lexahl/text-regurgitation/blob/main/img/cover.png?raw=true" alt="receipt printer printing 1m long receipt, all surrounding the printer" title="Text Regurgitation" width="200"/><img src="https://github.com/lexahl/text-regurgitation/blob/main/img/cover.png?raw=true" alt="receipt printer printing 1m long receipt, all surrounding the printer" title="Text Regurgitation" width="200"/><img src="https://github.com/lexahl/text-regurgitation/blob/main/img/cover.png?raw=true" alt="receipt printer printing 1m long receipt, all surrounding the printer" title="Text Regurgitation" width="200"/>
-
-- - -
+==to do==
 
 
 ## LICENSES
-
 "Travesty in Python" - MIT License, Copyright (c) 2019 Rodney Shupe
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
