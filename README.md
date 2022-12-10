@@ -31,8 +31,11 @@ NLTK is a tool in Python to work with human language data, often used in Natural
 ─░█── ░█▄▄▀ ░█▄▄█ ─░█░█─ ░█▀▀▀ ─▀▀▀▄▄ ─░█── ░█▄▄▄█ \
 ─░█── ░█─░█ ░█─░█ ──▀▄▀─ ░█▄▄▄ ░█▄▄▄█ ─░█── ──░█──
 
-#### Introduction 
-* travesty (also markov)
+<a href="https://archive.org/details/byte-magazine-1984-11/page/n448/mode/1up?view=theater" target="_blank">A Travesty Generator for Micros by Hugh Kenner and Joseph O'Rourke</a> was published in BYTE Magazine in 1984. With the subtitle, "nonsense imitation can be disconcertingly recognizable," this algorithm is an application of Markov chains and scrambles text in a way that can feel familiar bevause it has the same frequency of which pairs of words or characters that appear in the original text. (Read more <a href="https://www.cs.otago.ac.nz/cosc348/hmm/hmm.pdf" target="_blank">here</a>). 
+
+> A text, such as a passage from a novel, is among other things a set of characters. It consists of so many e's, so many f's, and so on. It's also a set of character pairs (so many ex's, so many ch's, etc.) and of triplets (die's, wkw's, etc.), and so on. For any same-size group of characters — call the size *n* — it's possible to make a frequency table for a particular text. From that table, another text can be constructed that shares statistical properties, but only those properties, with the first one. That's what Travesty does. It produces an output text that duplicates the frequenciesof *n*-character groups in the input text. (Description source: Virtual Muse: Experiments in Computer Poetry by CO Hartman, 1996)
+
+* A Python adaptation of Travesty is used to generate the "Introduction" in the thesis. 
 * Reference: <a href="https://github.com/rodneyshupe/travestypy" target="_blank">Travesty in Python by Rodney Shupe</a>, license below.
 
 - - - 
@@ -41,14 +44,10 @@ NLTK is a tool in Python to work with human language data, often used in Natural
 ░█░█░█ ░█▄▄█ ░█▄▄▀ ░█▀▄─ ░█──░█ ─░█░█─ \
 ░█──░█ ░█─░█ ░█─░█ ░█─░█ ░█▄▄▄█ ──▀▄▀─
 
-#### Literature Review  
-* Markov word-level regurgitation
-* Reference: <a href="https://medium.com/upperlinecode/making-a-markov-chain-poem-generator-in-python-4903d0586957" target="_blank">Making a Markov Chain Poem Generator in Python by Mehrab Jamee</a>
 
-#### Methods 
-* Markov based character-level regurgitation
+* Python adaptions of markov chains have been used to generate the "Literature Review" and "Methods" sections in the thesis.
+* "Literature Review" is word-level and "Methods" is character-level
 * Reference: <a href="https://github.com/aparrish/rwet/blob/master/ngrams-and-markov-chains.ipynb" target="_blank">N-grams and Markov chains by Allison Parrish</a>, license below.
-
 - - -
 
 ░█▀▀▄ ─█▀▀█ ░█▀▀▄ ─█▀▀█ \
@@ -61,16 +60,9 @@ NLTK is a tool in Python to work with human language data, often used in Natural
 
 <img src="https://github.com/lexahl/text-regurgitation/blob/main/img/tt1920.png?raw=true" alt="Prenez un journal. Prenez des ciseaux. Choisissez dans ce journal un article ayant la longueur que vous comptez donner à votre poème. Découpez l’article. Découpez ensuite avec soin chacun des mots qui forment cet article et mettez-les dans un sac. Agitez doucement. Sortez ensuite chaque coupure l’une après l’autre. Copiez les consciencieusement dans l’ordre où elles ont quitté le sac. Le poème vous ressemblera. Et vous voilà un écrivain infiniment original et d’une sensibilité charmante, encore qu’incomprise du vulgaire." title="Text Regurgitation" width="200"/>
 
-#### Presentation of Work 
-* Dada word-level
-* Splits up the words
-* Rejoins them randomly
 
-#### Discussion
-* Dada character-level 
-* Splits up the characters randomly into lengths 1-11
-* Rejoins the splits randomly
-
+* Python adaptions of "To Make a Dadaist Poem" have been used to generate the "Presentation of Work" and "Discussion" sections in the thesis.
+* "Presentation of Work" is word-level and "Discussion" is character-level
 
 
 ## How to Run (and Print) This Code
@@ -86,7 +78,7 @@ A file `output.txt` will be written with a "generated" thesis. The thesis will b
 lp -o lpi=10 -o cpi=17 output.txt
 ```
 
-Modifications: Adjust `lpi`(lines per inch) and `cpi`(characters per inch) as needed. If you would like to use your own files, move your text files into the folder as `sources.txt` and `references.txt` after removing the original files. Edit the formatting directly in the `regurgitate.py` file in the ## formatting variables section. 
+Modifications: Adjust value of `lpi` (lines per inch) and `cpi` (characters per inch) as needed. If you would like to use your own files, move your text files into the folder as `sources.txt` and `references.txt` after removing the original files. Edit the formatting directly in the `regurgitate.py` file in the ## formatting variables section. 
 
 
 
