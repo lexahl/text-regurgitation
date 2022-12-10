@@ -1,9 +1,5 @@
 # Text Regurgitation
 
-<img src="https://github.com/lexahl/text-regurgitation/blob/main/img/cover.png?raw=true" alt="receipt printer printing 1m long receipt, all surrounding the printer" title="Text Regurgitation" width="200"/>
-
-- - -
-
 ## About
 *Text Regurgitation* aims to critique Large Language Models often unacknowledged but harmful decontextualization of language. Text Regurgitation is simultaneously is a commentary on western education systems and knowledge production. Regurgitation refers to the act of bringing up something that has been previously swallowed or digested. In the context of information, regurgitation refers to the repetition of previously learned information without understanding it. Language models can not understand; they can only regurgitate without meaning, even if the produced text is seemingly coherent. 
 
@@ -48,3 +44,5 @@ The project takes form as multiple receipts, each containing a “thesis.” The
 ## Acknowledgements
 
 - - -
+
+<img src="https://github.com/lexahl/text-regurgitation/blob/main/img/cover.png?raw=true" alt="receipt printer printing 1m long receipt, all surrounding the printer" title="Text Regurgitation" width="200"/> <img src="https://github.com/lexahl/text-regurgitation/blob/main/img/cover.png?raw=true" alt="receipt printer printing 1m long receipt, all surrounding the printer" title="Text Regurgitation" width="200"/> <img src="https://github.com/lexahl/text-regurgitation/blob/main/img/cover.png?raw=true" alt="receipt printer printing 1m long receipt, all surrounding the printer" title="Text Regurgitation" width="200"/>
