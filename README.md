@@ -178,11 +178,8 @@ Modifications: Adjust the values of `lpi` (lines per inch) and `cpi` (characters
 Help: See <a href="https://www.nltk.org/install.html" target="_blank">Installing NLTK</a> for installation help with NLTK.   
 
 
-- - -
-
-
+## LICENSES
 ```
-LICENSES
 "Travesty in Python" - MIT License, Copyright (c) 2019 Rodney Shupe
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
