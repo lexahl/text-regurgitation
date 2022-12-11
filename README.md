@@ -164,17 +164,19 @@ The algorithms first split up the text (*take some scissors*), for the character
 ## How to Run (and Print) This Code
 Download or clone the repository to a computer. Navigate in the terminal/command line to the folder. Run:
 
-First run the command below to generate the introduction. If you are generating a thesis for another course, it can be helpful to create a text file of the syllabus to use instead of `book_of_units` to be relevant to your course. 
+First run the command below to generate the introduction: 
 ```
 python3 travesty.py book_of_units.txt> travesty-intro.txt
 ```
 
-Once the above command is complete, run the following command to produce a thesis.
+Once the above command is complete, run the following command to produce a thesis:
 ```
 python3 regurgitate.py
 ```
 
-A file `output.txt` will be written with a "generated" thesis. The thesis will be different each time the command above is run. The thesis will also show in the terminal/command line. To print using CUPS, use the command line prompt below: 
+A file `output.txt` will be written with a "generated" thesis. The thesis will be different each time the above command is run. The thesis will also show in the terminal/command line. 
+
+To print using CUPS, use the command line prompt below: 
 ```
 lp -o lpi=10 -o cpi=17 output.txt
 ```
