@@ -66,8 +66,7 @@
 The project takes the form of multiple receipts, each containing a "thesis." These theses have been generated intentionally without using Large Language Models. Instead, the text is generated using various functions that take inspiration from algorithms, some over 100 years old (see below). The text corpus was created from the assigned readings for the course "MA Internet Equalities." This is the repository for the code that generates the thesis with created text corpora. Example theses generated using this code are available in this repository as `output-txt` and in the folder `theses`.
 
 ## About the Algorithms
-
-- - - 
+ 
 ```
 ░█████╗░███████╗░██████╗░  ░██╗░░░░░░░██╗██╗████████╗██╗░░██╗  ███╗░░██╗██╗░░░░░████████╗██╗░░██╗
 ██╔══██╗██╔════╝██╔════╝░  ░██║░░██╗░░██║██║╚══██╔══╝██║░░██║  ████╗░██║██║░░░░░╚══██╔══╝██║░██╔╝
