@@ -172,7 +172,7 @@ A file `output.txt` will be written with a "generated" thesis. The thesis will b
 lp -o lpi=10 -o cpi=17 output.txt
 ```
 
-Modifications: Adjust the values of `lpi` (lines per inch) and `cpi` (characters per inch) as needed. If you would like to use your own files, move your text files into the folder as `sources.txt` and `references.txt` after removing the original files. Edit the formatting directly in the `regurgitate.py` file in the ## formatting variables section. 
+Modifications: Adjust the values of `lpi` (lines per inch) and `cpi` (characters per inch) as needed. This code was made to create a file with formatting for printing on a thermal printer. If you would like to use your own files, move your text files into the folder as `sources.txt` and `references.txt` after removing the original files. Edit the formatting directly in the `regurgitate.py` file in the ## formatting variables section. 
 
 Help: See <a href="https://www.nltk.org/install.html" target="_blank">Installing NLTK</a> for installation help with NLTK.   
 
