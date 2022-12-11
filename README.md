@@ -67,12 +67,6 @@ The project takes the form of multiple receipts, each containing a "thesis." The
 
 ## About the Algorithms
 
-* [Context-Free Grammar with NLTK (2001)](#About-the-Context-Free-Grammar-with-NLTK-Algorithm
-* [Travesty (1984)](#Travesty)
-* [Markov (1906)](#Markov)
-* [Dada (1920)](#Dada)
-
-
 - - - 
 ```
 ░█████╗░███████╗░██████╗░  ░██╗░░░░░░░██╗██╗████████╗██╗░░██╗  ███╗░░██╗██╗░░░░░████████╗██╗░░██╗
@@ -99,8 +93,9 @@ CFG (Context-Free Grammar) refers to a system that represents all possible strin
 In this project, NLTK is used to generate the abstract of the thesis by tokenizing (splitting up the text into words), and then Part-of-speech (POS) tagging the words. The CFG with NLTK algorithm in this project tags and tokenizes both an input text and an "ideal" abstract. The rest of the text is generated using a created text corpus from the readings assigned in the MA syllabus, but the abstract is generated using text from the syllabus (book_of_units.txt) itself, which describes the goals and topics discussed in the course. The algorithm then replaces the words in an abstract with words from the (randomly shuffled) syllabus with the same POS tag. 
 
 ### Abstract and Conclusion
-* context-free grammar
-* https://www.nltk.org/
+* POS tagging is used to create grammars to generate the Abstract
+* The conclusion is the generated Abstract randomly shuffled.
+* Reference: <a href="https://www.nltk.org/" target="_blank">NLTK</a>
 
 - - - 
 ```
@@ -181,18 +176,8 @@ Modifications: Adjust the values of `lpi` (lines per inch) and `cpi` (characters
 Help: See <a href="https://www.nltk.org/install.html" target="_blank">Installing NLTK</a> for installation help with NLTK.   
 
 
-
-## References
-==to do==
-A complete list of references to generate the thesis with `regurgitate.py` and `sources.txt` is included in this repository as `references.txt.`
-
-
-
-## Acknowledgements
-==to do==
-
-
 - - -
+
 
 ```
 LICENSES
