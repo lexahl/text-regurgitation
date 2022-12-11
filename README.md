@@ -157,9 +157,6 @@ The algorithms first split up the text (*take some scissors*), for the character
 * "Presentation of Work" is word-level, and "Discussion" is character-level
 
 
-- - -
-
-
 ## How to Run (and Print) This Code
 Download or clone the repository to a computer. Navigate in the terminal/command line to the folder. Run:
 
