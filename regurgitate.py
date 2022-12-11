@@ -307,7 +307,7 @@ methods = "\n"+hz_line+"3 - METHODS"+hz_line+ "".join(methods_list)+"."
 # Cut out the article.
 # Next carefully cut out each of the words that makes up this article and put them all in a bag.
 # Shake gently.
-dadaword = random.sample(text_data, 50)
+dadaword = random.sample(text_data, total_word_count)
 word1_dada = random.choice(dadaword).capitalize()
 
 # Next take out each cutting one after the other.
