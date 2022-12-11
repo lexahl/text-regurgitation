@@ -39,14 +39,14 @@ NLTK is a tool in Python to work with human language data, often used in Natural
 * Reference: <a href="https://github.com/rodneyshupe/travestypy" target="_blank">Travesty in Python by Rodney Shupe</a>, license below.
 
 - - - 
-
+```
 ███╗░░░███╗░█████╗░██████╗░██╗░░██╗░█████╗░██╗░░░██╗
 ████╗░████║██╔══██╗██╔══██╗██║░██╔╝██╔══██╗██║░░░██║
 ██╔████╔██║███████║██████╔╝█████═╝░██║░░██║╚██╗░██╔╝
 ██║╚██╔╝██║██╔══██║██╔══██╗██╔═██╗░██║░░██║░╚████╔╝░
 ██║░╚═╝░██║██║░░██║██║░░██║██║░╚██╗╚█████╔╝░░╚██╔╝░░
 ╚═╝░░░░░╚═╝╚═╝░░╚═╝╚═╝░░╚═╝╚═╝░░╚═╝░╚════╝░░░░╚═╝░░░
-
+```
 * Python adaptions of markov chains have been used to generate the "Literature Review" and "Methods" sections in the thesis.
 * "Literature Review" is word-level and "Methods" is character-level
 * Reference: <a href="https://github.com/aparrish/rwet/blob/master/ngrams-and-markov-chains.ipynb" target="_blank">N-grams and Markov chains by Allison Parrish</a>, license below.
