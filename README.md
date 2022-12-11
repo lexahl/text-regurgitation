@@ -1,3 +1,62 @@
+```
+                                                                                             
+            .(@@@@@@%/         *%/,,,,,,,..,*/((((/.                                                
+          /@@@&%&&@@@@@@&.  ,,#,,,,,,,,,,,,,,&%(........,*/%(.                                      
+         @@@&%%&&@@@@@@@@@@@% (,((((/,,,,,,*,,,,@,,....,.......,..,#%.                              
+        &@@&&@@@@@@@@@@@@@//*(,............**,,,,,,*%.............,,..,..%,                         
+       *@@@@@@@@@@@@@%(%/%///*(%..,............ ...,..,/.,,..,.............../*                     
+       (@@@%**/*#@@@@@((/*&////%./.,.................#*//*&,..................,.*#                  
+       *@/(***//////*///////////@,.#((,,..........,*(///////*%,..,.....,/((/**(*...,(               
+         #((((/////*,*////////((#,#.(,,,,%(* .,,,,,(/*****///////%.,,,...#/........,.%.%            
+             &*@%*(#/**////////(,,/,..#.*..,,,...%#%*/////////*,*//%....,....,......,*.,..          
+                 &*//%#%/////////   %,...,/,..,,,,,,,,.*&#*/////(////#...,*((,,.,...#.,., /         
+                       *,%*&*        ,(,...,.%.,,,,,,,,,,,,%*//////////#,,,,,,,,,,,&(#,,,,,.        
+                       .*#.            ,( *,.((,#.,,,,,,,,,,.@*/////////(*,,,,,,,*/**/#.,,.&        
+                       /,**                ,&%@%/,./#,,,,,,,,*,./%*///////&,*,,%,*,#..#,,, %        
+                       (,*&                   &//////%&/ ,,,,,*,(.,.%//////#%.#%,,.,,/,,,,/         
+                       *.#,                     &//(///#   /%.,,,,,,,**(*/((//,... ./.*/,.,         
+                       #.,/                      .%//(/%   @(/,,.,*,,*,,&%*&//*,,,,**,,,.*          
+                       (.*/                        ,(///( /.*****,%./#///*/////#,,,(.,*.(           
+                       */#                           #///(/,,..,(#(//////***//&,*,(.**/.            
+                       *,(                            /(//%,.,,,,%.##////*/,@.,,.(.,,#.             
+                       /.%                             %///@.,*&.%.#%*#,#&,,,,,.#.,*/,              
+                       /.%                            (//(/(.(% %,*%/%.%*#,,,,.#.,***               
+                       .*(                          .#///(/*&#/..,/(#(,(,,,,,*.,,*,#                
+                       ,(,                         (/(((((&*@&#((*((*//#&%*/#**/(((,                
+                        %.                         (/%(#//(((((((%(*//////(/////%                   
+                        ,.                         ,(#/%(&(((((&,,//////////(((.                    
+                        (,                           ,#(//%((((% %//**//////*/                      
+                                                      ,(////((((#//*//////%(                        
+                                                       #////(((((%/////////&                        
+                        ,#                             *(////(((((&(/////////*                      
+                                                        #////(((((%///////////*                     
+                                                        %(///(((((%#//////////%                     
+                                                        %#(//((((& #*/////(///%                     
+                                                        %#(//((((# /*///////(/(                     
+                                                        %#(/((((#, */////////%                      
+                                                        ##((((((%  *(///////#                       
+                                                        #(((((((&  ,(/////(#@                       
+                                                        #(/(((#(&  *//////(//                       
+                                                      .#(///(#((%  ///////(#                        
+                                              ,%&&(//////((((((((& ,(/////(@                        
+                                           //////(%##/(#%%(((((((( *//////(&                        
+████████╗███████╗██╗░░██╗████████╗        ((%%%%###(########(((((% ////////@                        
+╚══██╔══╝██╔════╝╚██╗██╔╝╚══██╔══╝                                 @///////@                        
+░░░██║░░░█████╗░░░╚███╔╝░░░░██║░░░                              .%*////////@                        
+░░░██║░░░██╔══╝░░░██╔██╗░░░░██║░░░                           ,&*/////////(/@.                       
+░░░██║░░░███████╗██╔╝╚██╗░░░██║░░░                       &######%%#(/*///%%%@                       
+░░░╚═╝░░░╚══════╝╚═╝░░╚═╝░░░╚═╝░░░                   *##(%#//(#%%%%#(##&#%%.                        
+                                                    (#&&#@,%*(*(((&%%%(                             
+                                                        .#@@%##%&&(                                 
+
+██████╗░███████╗░██████╗░██╗░░░██╗██████╗░░██████╗░██╗████████╗░█████╗░████████╗██╗░█████╗░███╗░░██╗
+██╔══██╗██╔════╝██╔════╝░██║░░░██║██╔══██╗██╔════╝░██║╚══██╔══╝██╔══██╗╚══██╔══╝██║██╔══██╗████╗░██║
+██████╔╝█████╗░░██║░░██╗░██║░░░██║██████╔╝██║░░██╗░██║░░░██║░░░███████║░░░██║░░░██║██║░░██║██╔██╗██║
+██╔══██╗██╔══╝░░██║░░╚██╗██║░░░██║██╔══██╗██║░░╚██╗██║░░░██║░░░██╔══██║░░░██║░░░██║██║░░██║██║╚████║
+██║░░██║███████╗╚██████╔╝╚██████╔╝██║░░██║╚██████╔╝██║░░░██║░░░██║░░██║░░░██║░░░██║╚█████╔╝██║░╚███║
+╚═╝░░╚═╝╚══════╝░╚═════╝░░╚═════╝░╚═╝░░╚═╝░╚═════╝░╚═╝░░░╚═╝░░░╚═╝░░╚═╝░░░╚═╝░░░╚═╝░╚════╝░╚═╝░░╚══╝
+```
+
 # Text Regurgitation
 
 *Text Regurgitation* aims to critique Large Language Models often unacknowledged but harmful decontextualization of language. Text Regurgitation is simultaneously is a commentary on western education systems and knowledge production. Regurgitation refers to the act of bringing up something that has been previously swallowed or digested. In the context of information, regurgitation refers to the repetition of previously learned information without understanding it. Language models can not understand; they can only regurgitate without meaning, even if the produced text is seemingly coherent. 
@@ -12,11 +71,14 @@ The project takes form as multiple receipts, each containing a “thesis.” The
 * Dada (1920)
 
 - - - 
-\
-░█▀▀█ ░█▀▀▀ ░█▀▀█ 　 ░█──░█ ▀█▀ ▀▀█▀▀ ░█─░█ 　 ░█▄─░█ ░█─── ▀▀█▀▀ ░█─▄▀ \
-░█─── ░█▀▀▀ ░█─▄▄ 　 ░█░█░█ ░█─ ─░█── ░█▀▀█ 　 ░█░█░█ ░█─── ─░█── ░█▀▄─ \
-░█▄▄█ ░█─── ░█▄▄█ 　 ░█▄▀▄█ ▄█▄ ─░█── ░█─░█ 　 ░█──▀█ ░█▄▄█ ─░█── ░█─░█ \
-
+```
+░█████╗░███████╗░██████╗░  ░██╗░░░░░░░██╗██╗████████╗██╗░░██╗  ███╗░░██╗██╗░░░░░████████╗██╗░░██╗
+██╔══██╗██╔════╝██╔════╝░  ░██║░░██╗░░██║██║╚══██╔══╝██║░░██║  ████╗░██║██║░░░░░╚══██╔══╝██║░██╔╝
+██║░░╚═╝█████╗░░██║░░██╗░  ░╚██╗████╗██╔╝██║░░░██║░░░███████║  ██╔██╗██║██║░░░░░░░░██║░░░█████═╝░
+██║░░██╗██╔══╝░░██║░░╚██╗  ░░████╔═████║░██║░░░██║░░░██╔══██║  ██║╚████║██║░░░░░░░░██║░░░██╔═██╗░
+╚█████╔╝██║░░░░░╚██████╔╝  ░░╚██╔╝░╚██╔╝░██║░░░██║░░░██║░░██║  ██║░╚███║███████╗░░░██║░░░██║░╚██╗
+░╚════╝░╚═╝░░░░░░╚═════╝░  ░░░╚═╝░░░╚═╝░░╚═╝░░░╚═╝░░░╚═╝░░╚═╝  ╚═╝░░╚══╝╚══════╝░░░╚═╝░░░╚═╝░░╚═╝
+```
 CGF (Context-Free Grammar) refers to a sytem that represents all possible strings in a given formal language.  
 
 NLTK is a tool in Python to work with human language data, often used in Natural Language Processing. It is used in this code to tokenize and categorize text. See <a href="https://www.nltk.org/install.html" target="_blank">Installing NLTK</a> for installation help.   
@@ -26,11 +88,14 @@ NLTK is a tool in Python to work with human language data, often used in Natural
 * https://www.nltk.org/
 
 - - - 
-\
-▀▀█▀▀ ░█▀▀█ ─█▀▀█ ░█──░█ ░█▀▀▀ ░█▀▀▀█ ▀▀█▀▀ ░█──░█ \
-─░█── ░█▄▄▀ ░█▄▄█ ─░█░█─ ░█▀▀▀ ─▀▀▀▄▄ ─░█── ░█▄▄▄█ \
-─░█── ░█─░█ ░█─░█ ──▀▄▀─ ░█▄▄▄ ░█▄▄▄█ ─░█── ──░█── \
-
+```
+████████╗██████╗░░█████╗░██╗░░░██╗███████╗░██████╗████████╗██╗░░░██╗
+╚══██╔══╝██╔══██╗██╔══██╗██║░░░██║██╔════╝██╔════╝╚══██╔══╝╚██╗░██╔╝
+░░░██║░░░██████╔╝███████║╚██╗░██╔╝█████╗░░╚█████╗░░░░██║░░░░╚████╔╝░
+░░░██║░░░██╔══██╗██╔══██║░╚████╔╝░██╔══╝░░░╚═══██╗░░░██║░░░░░╚██╔╝░░
+░░░██║░░░██║░░██║██║░░██║░░╚██╔╝░░███████╗██████╔╝░░░██║░░░░░░██║░░░
+░░░╚═╝░░░╚═╝░░╚═╝╚═╝░░╚═╝░░░╚═╝░░░╚══════╝╚═════╝░░░░╚═╝░░░░░░╚═╝░░░
+```
 <a href="https://archive.org/details/byte-magazine-1984-11/page/n448/mode/1up?view=theater" target="_blank">A Travesty Generator for Micros by Hugh Kenner and Joseph O'Rourke</a> was published in BYTE Magazine in 1984. With the subtitle, "nonsense imitation can be disconcertingly recognizable," this algorithm is an application of Markov chains and scrambles text in a way that can feel familiar bevause it has the same frequency of which pairs of words or characters that appear in the original text. (Read more <a href="https://www.cs.otago.ac.nz/cosc348/hmm/hmm.pdf" target="_blank">here</a>). 
 
 > A text, such as a passage from a novel, is among other things a set of characters. It consists of so many e's, so many f's, and so on. It's also a set of character pairs (so many ex's, so many ch's, etc.) and of triplets (die's, wkw's, etc.), and so on. For any same-size group of characters — call the size *n* — it's possible to make a frequency table for a particular text. From that table, another text can be constructed that shares statistical properties, but only those properties, with the first one. That's what Travesty does. It produces an output text that duplicates the frequenciesof *n*-character groups in the input text. (Description source: Virtual Muse: Experiments in Computer Poetry by CO Hartman, 1996)
@@ -51,10 +116,14 @@ NLTK is a tool in Python to work with human language data, often used in Natural
 * "Literature Review" is word-level and "Methods" is character-level
 * Reference: <a href="https://github.com/aparrish/rwet/blob/master/ngrams-and-markov-chains.ipynb" target="_blank">N-grams and Markov chains by Allison Parrish</a>, license below.
 - - -
-\
-░█▀▀▄ ─█▀▀█ ░█▀▀▄ ─█▀▀█ \
-░█─░█ ░█▄▄█ ░█─░█ ░█▄▄█ \
-░█▄▄▀ ░█─░█ ░█▄▄▀ ░█─░█ \
+```
+██████╗░░█████╗░██████╗░░█████╗░
+██╔══██╗██╔══██╗██╔══██╗██╔══██╗
+██║░░██║███████║██║░░██║███████║
+██║░░██║██╔══██║██║░░██║██╔══██║
+██████╔╝██║░░██║██████╔╝██║░░██║
+╚═════╝░╚═╝░░╚═╝╚═════╝░╚═╝░░╚═╝
+```
 
 "Dada" text generating/regurgitating algorithms based on the guide "To Make a Dadaist Poem" (Pour Faire Un Poème Dadaiste, 1920) by Tristan Tzara. 
 
