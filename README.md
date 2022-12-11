@@ -63,7 +63,7 @@
 
 *Text Regurgitation* aims to critique Large Language Models often unacknowledged but harmful decontextualization of language through the parody of text generation algorithms. Text Regurgitation is simultaneously a commentary on western education systems and knowledge production. Regurgitation refers to the act of bringing up something that has been previously swallowed or digested. In the context of information, regurgitation refers to the repetition of previously learned information without understanding it. Language models can not understand; they can only regurgitate without meaning, even if the produced text is seemingly coherent. 
 
-The project takes the form of multiple receipts, each containing a "thesis." These theses have been generated intentionally without using Large Language Models. Instead, the text is generated using various functions that take inspiration from algorithms, some over 100 years old (see below). The text corpus was created from the assigned readings for the course "MA Internet Equalities." This is the repository for the code that generates the thesis with created text corpora. Example theses generated using this code are available in this repository as `output.txt` and in the folder `theses`.
+The project takes the form of multiple receipts, each containing a "thesis." These theses have been generated intentionally without using Large Language Models. Instead, the text is generated using various functions that take inspiration from algorithms, some over 100 years old (see below). The text corpus was created from the assigned readings for the course "MA Internet Equalities" and the syllabus "Book of Units" itself. This is the repository for the code that generates the thesis with created text corpora. Example theses generated using this code are available in this repository as `output.txt` and in the folder `theses`.
 
 ## About the Algorithms
  
@@ -91,7 +91,7 @@ VBP = "non-3rd person singular present forms"
 
 The grammar for `ily` would be PRP->VBP->PRP. For example, other VBPs ("non-3rd person singular present forms") are "like," "hate," "need," etc. With this grammar, the VBP can be replaced to create "I hate him," and the grammar, representing this possible string in English, would still be grammatically correct.
 
-In this project, NLTK is used to generate the abstract of the thesis by tokenizing (splitting up the text into words), and then Part-of-speech (POS) tagging the words. The CFG with NLTK algorithm in this project tags and tokenizes both an input text and an "ideal" abstract. The rest of the text is generated using a created text corpus from the readings assigned in the MA syllabus, but the abstract is generated using text from the syllabus (book_of_units.txt) itself, which describes the goals and topics discussed in the course. The algorithm then replaces the words in an abstract with words from the (randomly shuffled) syllabus with the same POS tag. 
+In this project, NLTK is used to generate the abstract of the thesis by tokenizing (splitting up the text into words), and then Part-of-speech (POS) tagging the words. The CFG with NLTK algorithm in this project tags and tokenizes both an input text and an "ideal" abstract. The majority of the text is generated using a created text corpus from the readings assigned in the MA syllabus, but the abstract and introduction are generated using text from the syllabus (book_of_units.txt) itself, which describes the goals and topics discussed in the course. The algorithm then replaces the words in an abstract with words from the (randomly shuffled) syllabus with the same POS tag. 
 
 ### Abstract and Conclusion
 * POS tagging is used to create grammars to generate the Abstract
@@ -114,7 +114,9 @@ In this project, NLTK is used to generate the abstract of the thesis by tokenizi
 
 > A text, such as a passage from a novel, is, among other things, a set of characters. It consists of so many e's, so many f's, and so on. It's also a set of character pairs (so many ex's, so many ch's, etc.) and of triplets (die's, wkw's, etc.), and so on. For any same-size group of characters — call the size *n* — it's possible to make a frequency table for a particular text. From that table, another text can be constructed that shares statistical properties but only those properties with the first one. That's what Travesty does. It produces an output text that duplicates the frequencies of *n*-character groups in the input text. (Description source: Virtual Muse: Experiments in Computer Poetry by CO Hartman, 1996)
 
-* A Python adaptation of Travesty is used to generate the "Introduction" in the thesis. 
+As stated above, the introduction is generated using text from the syllabus (book_of_units.txt) itself, which describes the goals and topics discussed in the course, and in the Travesty part of the algorithm, the word "course" is swapped with "thesis." 
+
+* A Python adaptation of Travesty, by Rodney Shupe, is used to generate the "Introduction" in the thesis. 
 * Reference: <a href="https://github.com/rodneyshupe/travestypy" target="_blank">Travesty in Python by Rodney Shupe</a>, license below.
 
 - - - 
@@ -162,19 +164,24 @@ The algorithms first split up the text (*take some scissors*), for the character
 ## How to Run (and Print) This Code
 Download or clone the repository to a computer. Navigate in the terminal/command line to the folder. Run:
 
+First run the command below to generate the introduction. If you are generating a thesis for another course, it can be helpful to create a text file of the syllabus to use instead of `book_of_units` to be relevant to your course. 
+```
+python3 travesty.py book_of_units.txt> travesty-intro.txt
+```
+
+Once the above command is complete, run the following command to produce a thesis.
 ```
 python3 regurgitate.py
 ```
 
 A file `output.txt` will be written with a "generated" thesis. The thesis will be different each time the command above is run. The thesis will also show in the terminal/command line. To print using CUPS, use the command line prompt below: 
-
 ```
 lp -o lpi=10 -o cpi=17 output.txt
 ```
 
-Modifications: Adjust the values of `lpi` (lines per inch) and `cpi` (characters per inch) as needed. This code was made to create a file with formatting for printing on a thermal printer. If you would like to use your own files, move your text files into the folder as `sources.txt` and `references.txt` after removing the original files. Edit the formatting directly in the `regurgitate.py` file in the ## formatting variables section. 
+Modifications: Adjust the values of `lpi` (lines per inch) and `cpi` (characters per inch) as needed. This code was made to create a file with formatting for printing on a thermal printer. If you would like to use your own files, move your text files into the folder as `sources.txt`, `references.txt`, `book_of_units.txt` after removing/renaming the original files. Edit the formatting directly in the `regurgitate.py` file in the ## formatting variables section. 
 
-Help: See <a href="https://www.nltk.org/install.html" target="_blank">Installing NLTK</a> for installation help with NLTK.   
+Help: If `travesty.py` does not run, make sure your syllabus text file is larger than 2000 characters. If `IndexError: list index out of range` play around with the defaults in `travesty.py`. If there is trouble with NLTK, see <a href="https://www.nltk.org/install.html" target="_blank">Installing NLTK</a> for installation help with NLTK.   
 
 
 ## LICENSES 
