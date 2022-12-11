@@ -12,10 +12,10 @@ The project takes form as multiple receipts, each containing a “thesis.” The
 * Dada (1920)
 
 - - - 
-
+\
 ░█▀▀█ ░█▀▀▀ ░█▀▀█ 　 ░█──░█ ▀█▀ ▀▀█▀▀ ░█─░█ 　 ░█▄─░█ ░█─── ▀▀█▀▀ ░█─▄▀ \
 ░█─── ░█▀▀▀ ░█─▄▄ 　 ░█░█░█ ░█─ ─░█── ░█▀▀█ 　 ░█░█░█ ░█─── ─░█── ░█▀▄─ \
-░█▄▄█ ░█─── ░█▄▄█ 　 ░█▄▀▄█ ▄█▄ ─░█── ░█─░█ 　 ░█──▀█ ░█▄▄█ ─░█── ░█─░█
+░█▄▄█ ░█─── ░█▄▄█ 　 ░█▄▀▄█ ▄█▄ ─░█── ░█─░█ 　 ░█──▀█ ░█▄▄█ ─░█── ░█─░█ \
 
 CGF (Context-Free Grammar) refers to a sytem that represents all possible strings in a given formal language.  
 
@@ -26,10 +26,10 @@ NLTK is a tool in Python to work with human language data, often used in Natural
 * https://www.nltk.org/
 
 - - - 
-
+\
 ▀▀█▀▀ ░█▀▀█ ─█▀▀█ ░█──░█ ░█▀▀▀ ░█▀▀▀█ ▀▀█▀▀ ░█──░█ \
 ─░█── ░█▄▄▀ ░█▄▄█ ─░█░█─ ░█▀▀▀ ─▀▀▀▄▄ ─░█── ░█▄▄▄█ \
-─░█── ░█─░█ ░█─░█ ──▀▄▀─ ░█▄▄▄ ░█▄▄▄█ ─░█── ──░█──
+─░█── ░█─░█ ░█─░█ ──▀▄▀─ ░█▄▄▄ ░█▄▄▄█ ─░█── ──░█── \
 
 <a href="https://archive.org/details/byte-magazine-1984-11/page/n448/mode/1up?view=theater" target="_blank">A Travesty Generator for Micros by Hugh Kenner and Joseph O'Rourke</a> was published in BYTE Magazine in 1984. With the subtitle, "nonsense imitation can be disconcertingly recognizable," this algorithm is an application of Markov chains and scrambles text in a way that can feel familiar bevause it has the same frequency of which pairs of words or characters that appear in the original text. (Read more <a href="https://www.cs.otago.ac.nz/cosc348/hmm/hmm.pdf" target="_blank">here</a>). 
 
@@ -39,20 +39,20 @@ NLTK is a tool in Python to work with human language data, often used in Natural
 * Reference: <a href="https://github.com/rodneyshupe/travestypy" target="_blank">Travesty in Python by Rodney Shupe</a>, license below.
 
 - - - 
-
+\
 ░█▀▄▀█ ─█▀▀█ ░█▀▀█ ░█─▄▀ ░█▀▀▀█ ░█──░█ \
 ░█░█░█ ░█▄▄█ ░█▄▄▀ ░█▀▄─ ░█──░█ ─░█░█─ \
-░█──░█ ░█─░█ ░█─░█ ░█─░█ ░█▄▄▄█ ──▀▄▀─
+░█──░█ ░█─░█ ░█─░█ ░█─░█ ░█▄▄▄█ ──▀▄▀─ \
 
 
 * Python adaptions of markov chains have been used to generate the "Literature Review" and "Methods" sections in the thesis.
 * "Literature Review" is word-level and "Methods" is character-level
 * Reference: <a href="https://github.com/aparrish/rwet/blob/master/ngrams-and-markov-chains.ipynb" target="_blank">N-grams and Markov chains by Allison Parrish</a>, license below.
 - - -
-
+\
 ░█▀▀▄ ─█▀▀█ ░█▀▀▄ ─█▀▀█ \
 ░█─░█ ░█▄▄█ ░█─░█ ░█▄▄█ \
-░█▄▄▀ ░█─░█ ░█▄▄▀ ░█─░█
+░█▄▄▀ ░█─░█ ░█▄▄▀ ░█─░█ \
 
 "Dada" text generating/regurgitating algorithms based on the guide "To Make a Dadaist Poem" (Pour Faire Un Poème Dadaiste, 1920) by Tristan Tzara. 
 
