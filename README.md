@@ -80,14 +80,16 @@ The project takes the form of multiple receipts, each containing a "thesis." The
 
 CFG (Context-Free Grammar) refers to a system that represents all possible strings in a given formal language. Symbols represent language in CFG, and <a href= "https://www.nltk.org/" target= "_blank">NLTK</a> is a platform in Python to work with human language data (often used in Natural Language Processing) that can represent language in symbols (Part-of-speech [POS] tag), among other functionalities. 
 
-> ily = "I love you" 
-> ily_t = word_tokenize(ily) # -> ['I', 'love', 'you']
-> ily_td = nltk.pos_tag(ily_t) # -> [('I', 'PRP'), ('love', 'VBP'), ('you', 'PRP')]
+```
+ily = "I love you" 
+ily_t = word_tokenize(ily) # -> ['I', 'love', 'you']
+ily_td = nltk.pos_tag(ily_t) # -> [('I', 'PRP'), ('love', 'VBP'), ('you', 'PRP')]
 
-> PRP = "personal Pronoun"
-> VBP = "non-3rd person singular present forms"
+PRP = "personal Pronoun"
+VBP = "non-3rd person singular present forms"
 
-> The grammar for `ily` would be PRP->VBP->PRP. For example, other VBPs ("non-3rd person singular present forms") are "like," "hate," "need," etc. With this grammar, the VBP can be replaced to create "I hate him," and the grammar, representing this possible string in English, would still be grammatically correct.
+The grammar for `ily` would be PRP->VBP->PRP. For example, other VBPs ("non-3rd person singular present forms") are "like," "hate," "need," etc. With this grammar, the VBP can be replaced to create "I hate him," and the grammar, representing this possible string in English, would still be grammatically correct.
+```
 
 In this project, NLTK is used to generate the abstract of the thesis by tokenizing (splitting up the text into words), and then Part-of-speech (POS) tagging the words. The CFG with NLTK algorithm in this project tags and tokenizes both an input text and an "ideal" abstract. The rest of the text is generated using a created text corpus from the readings assigned in the MA syllabus, but the abstract is generated using text from the syllabus (book_of_units.txt) itself, which describes the goals and topics discussed in the course. The algorithm then replaces the words in an abstract with words from the (randomly shuffled) syllabus with the same POS tag. 
 
