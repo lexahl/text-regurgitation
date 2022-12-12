@@ -52,12 +52,12 @@ header = "\n\n\n\n\n\n"+"                   MA THESIS"+"\n\n\n"+\
 
 sources = "sources.txt"
 #reference_list = open("mini-references.txt").read()
-reference_list = open("references.txt").read()
-text_data_ac = open("book_of_units.txt").read()
+reference_list = open("references.txt", encoding="utf-8").read()
+text_data_ac = open("book_of_units.txt", encoding="utf-8").read()
 
 # use all sources text for body of thesis
 # use text from book of units for abstract and conlusion
-text_data = open(sources).read()
+text_data = open(sources, encoding="utf-8").read()
 
 # "clean" text data by removing spaces and brackets from text
 text_data = ''.join([i for i in text_data if not i.isdigit()]).replace("\n", " ").\
@@ -161,7 +161,7 @@ abstract = "ABSTRACT"+"\n"+abstract_text
 # `travesty-intro.txt`` was generated using the first command 
 # using the code referenced above
 # see github.com/lexahl/text-regurgitation for details
-travesty_intro = open("travesty-intro.txt").read()
+travesty_intro = open("travesty-intro.txt", encoding="utf-8").read()
 travesty_intro = travesty_intro[74:len(travesty_intro)-28]
 travesty_intro = travesty_intro.replace("\n","").replace("course", "thesis")
 introduction = "\n"+hz_line+"1 - INTRODUCTION"+hz_line+travesty_intro
@@ -283,7 +283,7 @@ def markov_generate_from_lines_in_file(n, filehandle, count, level='char', max_g
 
 int_count = int(count)//5
 methods_list=[]
-for item in markov_generate_from_lines_in_file(3, open(sources), int_count, 'char'):
+for item in markov_generate_from_lines_in_file(3, open(sources, encoding="utf-8"), int_count, 'char'):
     methods_list+=item
 
 
