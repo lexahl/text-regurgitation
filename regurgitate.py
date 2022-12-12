@@ -90,9 +90,6 @@ chain = {}
 ## ------------------------------------------------
 ###################################################
 
-# this can be replaced, but has not been tested
-# source: https://cpb-ap-se2.wpmucdn.com/sites.rmit.edu.au/dist/b/55/files/2018/04/Abstract-Guidelines-Nature-Journal-qip46l.pdf
-
 # replace with any abstract you fancy 
 ideal_abstract = "Thematic analysis is a poorly demarcated, rarely acknowledged, yet widely used qualitative analytic method within psychology. In this paper, we argue that it offers an accessible and theoretically flexible approach to analysing qualitative data. We outline what thematic analysis is, locating it in relation to other qualitative analytic methods that search for themes or patterns, and in relation to different epistemological and ontological positions. We then provide clear guidelines to those wanting to start thematic analysis, or conduct it in a more deliberate and rigorous way, and consider potential pitfalls in conducting thematic analysis. Finally, we outline the disadvantages and advantages of thematic analysis. We conclude by advocating thematic analysis as a useful and flexible method for qualitative research in and beyond psychology."
 #"Organizations are rapidly deploying artificial intelligence (AI) systems to manage their workers. However, AI has been found at times to be unfair to workers. Unfairness toward workers has been associated with decreased worker effort and increased worker turnover. To avoid such problems, AI systems must be designed to support fairness and redress instances of unfairness. Despite the attention related to AI unfairness, there has not been a theoretical and systematic approach to developing a design agenda. This paper addresses the issue in three ways. First, we introduce the organizational justice theory, three different fairness types (distributive, procedural, interactional), and the frameworks for redressing instances of unfairness (retributive justice, restorative justice). Second, we review the design literature that specifically focuses on issues of AI fairness in organizations. Third, we propose a design agenda for AI fairness in organizations that applies each of the fairness types to organizational scenarios. Then, the paper concludes with implications for future research."
@@ -165,6 +162,7 @@ abstract = "ABSTRACT"+"\n"+abstract_text
 # using the code referenced above
 # see github.com/lexahl/text-regurgitation for details
 travesty_intro = open("travesty-intro.txt").read()
+travesty_intro = travesty_intro[74:len(travesty_intro)-28]
 travesty_intro = travesty_intro.replace("\n","").replace("course", "thesis")
 introduction = "\n"+hz_line+"1 - INTRODUCTION"+hz_line+travesty_intro
 
