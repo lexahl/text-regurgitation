@@ -14,6 +14,10 @@ from random import sample
 import math
 from datetime import datetime
 import nltk
+
+# added downloads from nltk to help run on windows
+nltk.download('punkt')
+nltk.download('averaged_perceptron_tagger')
 from nltk import word_tokenize
 
 
@@ -71,7 +75,7 @@ text_data = ''.join([i for i in text_data if not i.isdigit()]).replace("\n", " "
 
 #special cleaning of text for travesty functions
 regex = re.compile('[^a-zA-Z]')
-input_file = regex.sub(' ',open(sources).read())
+input_file = regex.sub(' ',open(sources,encoding="utf-8").read())
 
 # word count for each paragraph
 # word count for abstract and conclusio
@@ -398,6 +402,10 @@ thesis = header + date + hz_line + abstract + introduction + lit_review + method
     hz_line + reference_list + "\n" + hz_line + total_words
 
 # creates new file with output and prints it to the terminal
+
+# replacement needed for character errors on windows
+thesis.replace("\u0301", "-").replace("\2010", "-")
+
 with open("output.txt", "w") as file:
 	file.write(thesis)
 
